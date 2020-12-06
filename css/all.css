@@ -1,0 +1,460 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 響應式設計*/
+img{
+        max-width:100%;
+        height:auto;
+}
+/*從這行以下開始*/
+/*標題*/
+h2{
+
+    text-align: center;
+    font-size: 48px;
+    background:#00bfff;
+	color: white;
+	padding: 20px;
+	
+}
+.clickh3{
+	text-align: center;
+    font-size: 48px;
+    background:greenyellow;
+	color: red;
+	padding: 20px;
+}
+.hoverh3{
+	margin-top: 220px;
+	text-align: center;
+    font-size: 48px;
+    background:greenyellow;
+	color: red;
+	padding: 20px;
+}
+/*主選單*/
+.main-menu{
+	
+	width: 100%;
+	
+
+	
+}
+.main-menu li{
+	float: left;
+	width: 19.5%;
+	border:#000 solid 1px;
+}
+.main-menu a{
+	padding: 10px 0;
+	text-align: center;
+	background: red;
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.main-menu a:hover{
+	background: white;
+	color: black;
+}
+/*帶入用的CLASS讓點擊過的選單變成反白*/
+.main-menu-list1.active{
+	background: white;
+	color: black;
+}
+.main-menu-list2.active{
+	background: white;
+	color: black;
+}
+.main-menu-list3.active{
+	background: white;
+	color: black;
+}
+.main-menu-list4.active{
+	background: white;
+	color: black;
+}
+.main-menu-list5.active{
+	background: white;
+	color: black;
+}
+
+/*子選單*/
+.Submenu{
+	width: 100%;
+
+}
+/*子選單1*/
+.select-menu1{
+	float: left;
+	width: 19.6%;
+	position: absolute;
+	top:261px;
+	left:0%;
+	display: none;
+}
+.select-menu1 li{
+	
+	border-bottom:#000 solid 1px;
+}
+.select-menu1 a{
+	padding: 10px 0;
+	text-align: center;
+	background: orange;
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.select-menu1 a:hover{
+	background: white;
+	color: black;
+}
+/*子選單2*/
+.select-menu2{
+	float: left;
+	width: 19.7%;
+	display: none;
+	position: absolute;
+	top:261px;
+	left:19.6%;
+}
+.select-menu2 li{
+	border-bottom:#000 solid 1px;
+}
+.select-menu2 a{
+	padding: 10px 0;
+	text-align: center;
+	background: brown;
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.select-menu2 a:hover{
+	background: white;
+	color: black;
+}
+/*子選單3*/
+.select-menu3{
+	float: left;
+	width: 19.7%;
+	display: none;
+	position: absolute;
+	top:261px;
+	left:39.3%;
+}
+.select-menu3 li{
+	border-bottom:#000 solid 1px;
+}
+.select-menu3 a{
+	padding: 10px 0;
+	text-align: center;
+	background: green;
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.select-menu3 a:hover{
+	background: white;
+	color: black;
+}
+/*子選單4*/
+.select-menu4{
+	float: left;
+	width: 19.7%;
+	display: none;
+	position: absolute;
+	top:261px;
+	left:59%;
+}
+.select-menu4 li{
+	border-bottom:#000 solid 1px;
+}
+.select-menu4 a{
+	padding: 10px 0;
+	text-align: center;
+	background: blue;
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.select-menu4 a:hover{
+	background: white;
+	color: black;
+}
+/*子選單5*/
+.select-menu5{
+	float: left;
+	width: 19.6%;
+	margin-left: 1px;
+	display: none;
+	position: absolute;
+	top:261px;
+	left:78.6%;
+}
+.select-menu5 li{
+	border-bottom:#000 solid 1px;
+	
+}
+.select-menu5 a{
+	padding: 10px 0;
+	text-align: center;
+	background: rebeccapurple;
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.select-menu5 a:hover{
+	background: white;
+	color: black;
+}
+
+/*HOVER*/
+
+/*主選單2*/
+.main-menu2{
+	
+	width: 100%;
+}
+.main-menu2 li{
+	float: left;
+	width: 19.5%;
+	border:#000 solid 1px;
+}
+.main-menu2 a{
+	padding: 10px 0;
+	text-align: center;
+	background: red;
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.main-menu2 a:hover{
+	background: white;
+	color: black;
+}
+/*帶入用的CLASS讓點擊過的選單變成反白*/
+.main-menu2-list1.active{
+	background: white;
+	color: black;
+}
+.main-menu2-list2.active{
+	background: white;
+	color: black;
+}
+.main-menu2-list3.active{
+	background: white;
+	color: black;
+}
+.main-menu2-list4.active{
+	background: white;
+	color: black;
+}
+.main-menu2-list5.active{
+	background: white;
+	color: black;
+}
+
+/*子選單*/
+.Submenu2{
+	width: 100%;
+
+}
+/*子選單1*/
+.select2-menu1{
+	float: left;
+	width: 19.6%;
+	position: absolute;
+	top:570px;
+	left:0%;
+	display: none;
+}
+.select2-menu1 li{
+	
+	border-bottom:#000 solid 1px;
+}
+.select2-menu1 a{
+	padding: 10px 0;
+	text-align: center;
+	background: orange;
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.select2-menu1 a:hover{
+	background: white;
+	color: black;
+}
+/*子選單2*/
+.select2-menu2{
+	float: left;
+	width: 19.7%;
+	display: none;
+	position: absolute;
+	top:570px;
+	left:19.6%;
+}
+.select2-menu2 li{
+	border-bottom:#000 solid 1px;
+}
+.select2-menu2 a{
+	padding: 10px 0;
+	text-align: center;
+	background: brown;
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.select2-menu2 a:hover{
+	background: white;
+	color: black;
+}
+/*子選單3*/
+.select2-menu3{
+	float: left;
+	width: 19.7%;
+	display: none;
+	position: absolute;
+	top:570px;
+	left:39.3%;
+}
+.select2-menu3 li{
+	border-bottom:#000 solid 1px;
+}
+.select2-menu3 a{
+	padding: 10px 0;
+	text-align: center;
+	background: green;
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.select2-menu3 a:hover{
+	background: white;
+	color: black;
+}
+/*子選單4*/
+.select2-menu4{
+	float: left;
+	width: 19.7%;
+	display: none;
+	position: absolute;
+	top:570px;
+	left:59%;
+}
+.select2-menu4 li{
+	border-bottom:#000 solid 1px;
+}
+.select2-menu4 a{
+	padding: 10px 0;
+	text-align: center;
+	background: blue;
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.select2-menu4 a:hover{
+	background: white;
+	color: black;
+}
+/*子選單5*/
+.select2-menu5{
+	float: left;
+	width: 19.6%;
+	margin-left: 1px;
+	display: none;
+	position: absolute;
+	top:570px;
+	left:78.6%;
+}
+.select2-menu5 li{
+	border-bottom:#000 solid 1px;
+	
+}
+.select2-menu5 a{
+	padding: 10px 0;
+	text-align: center;
+	background: rebeccapurple;
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.select2-menu5 a:hover{
+	background: white;
+	color: black;
+}
+
+
+
+
+
+
+
